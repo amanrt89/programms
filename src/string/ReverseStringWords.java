@@ -1,3 +1,4 @@
+
 package string;
 
 public class ReverseStringWords {
@@ -5,20 +6,19 @@ public class ReverseStringWords {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str="My name is Aman";
-		String a="";
 		String [] b=str.split(" ");
 		for(String x:b)
-		{
+		{		String a="";
+
 			for(int i=x.length()-1;i>=0;i--)
 			{
-				char ch=x.charAt(i);
-				a+=ch;
+				a+=x.charAt(i);
 
 			}
-			a=a+" ";
-		}
-		System.out.println(a);
+			System.out.print(a+" ");
 
+		}
+		
 	}
 
 }
